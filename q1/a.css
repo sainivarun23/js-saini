@@ -1,0 +1,93 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container for login form */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Login box */
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input box styling */
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Input field styling */
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Input focus effect */
+.input-box input:focus {
+    border-color: #3b82f6;
+}
+
+/* Label styling */
+.input-box label {
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 5px;
+    font-size: 12px;
+    color: #888;
+}
+
+/* Button styling */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b82f6; /* Blue color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.login-btn:hover {
+    background-color: #2563eb;
+}
+
+/* Error and success message styling */
+.login-message {
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+}
+
+/* Message for login status */
+#message {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
